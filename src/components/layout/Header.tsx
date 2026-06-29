@@ -17,6 +17,7 @@ import { useState } from "react";
 import LanguageSwitcher from "../common/LanguageSwitcher";
 import useLanguage from "../../hooks/useLanguage";
 import { translations } from "../../i18n/translations";
+import logo from "/src/assets/images/clarityLogo.jpg";
 
 const Header = () => {
   const theme = useTheme();
@@ -41,7 +42,7 @@ const Header = () => {
             sx={{ height: 70, mixBlendMode: "multiply" }}
             component={"img"}
             loading="lazy"
-            src="/src/assets/images/clarityLogo.jpg"
+            src={logo}
             alt="Clarity"
           ></Box>
           {/* Logo */}
