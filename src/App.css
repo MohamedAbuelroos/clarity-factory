@@ -1,0 +1,16 @@
+/* .swiper-button-prev,
+.swiper-button-next {
+  opacity: 0.6;
+  transition: all 0.3s ease;
+  font-size: 15px !important;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  opacity: 1;
+  transform: scale(1.25);
+}
+
+.mySwiper {
+  --swiper-navigation-size: 25px;
+} */
