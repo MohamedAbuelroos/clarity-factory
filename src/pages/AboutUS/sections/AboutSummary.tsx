@@ -1,5 +1,5 @@
 import { Box, Container, Grid, Typography } from "@mui/material";
-
+import joinUs from "/src/assets/images/joinUs.jpg";
 const AboutSummary = () => {
   return (
     <Container maxWidth="lg" sx={{ pt: 10 }}>
@@ -8,7 +8,7 @@ const AboutSummary = () => {
           <Box
             component="img"
             loading="lazy"
-            src="/src/assets/images/joinUs.jpg"
+            src={joinUs}
             alt="Clarity Factory"
             sx={{
               width: "100%",

@@ -3,6 +3,14 @@ import { Box, Container } from "@mui/material";
 import GalleryHeader from "./sections/GalleryHeader";
 import GalleryItems from "./sections/GalleryItems";
 import SEO from "../../components/common/SEO";
+import imgOne from "/src/assets/images/Clarity.jpeg";
+import imgTwo from "/src/assets/images/TieHous3.jpg";
+import imgThree from "/src/assets/images/slide2.png";
+import imgFour from "/src/assets/images/Heels.jpg";
+import imgFive from "/src/assets/images/TieHous.jpg";
+import imgSix from "/src/assets/images/TieHous.jpg";
+import imgSeven from "/src/assets/images/TieHous.jpg";
+import imgEight from "/src/assets/images/TieHous.jpg";
 
 const categories = ["All", "Canvas Bags", "Suit Cover", "Other"];
 
@@ -11,49 +19,49 @@ const products = [
     id: 1,
     name: "Premium Canvas Bag",
     category: "Canvas Bags",
-    image: "/src/assets/images/Clarity.jpeg",
+    image: imgOne,
   },
   {
     id: 2,
     name: "Luxury Suit Cover",
     category: "Suit Cover",
-    image: "/src/assets/images/TieHous3.jpg",
+    image: imgTwo,
   },
   {
     id: 3,
     name: "Eco Bag Model X",
     category: "Canvas Bags",
-    image: "/src/assets/images/slide2.png",
+    image: imgThree,
   },
   {
     id: 4,
     name: "Custom Packaging",
     category: "Canvas Bags",
-    image: "/src/assets/images/Heels.jpg",
+    image: imgFour,
   },
   {
     id: 5,
     name: "Custom Packaging",
     category: "Suit Cover",
-    image: "/src/assets/images/TieHous.jpg",
+    image: imgFive,
   },
   {
     id: 6,
     name: "Custom Packaging",
     category: "Other",
-    image: "/src/assets/images/TieHous.jpg",
+    image: imgSix,
   },
   {
     id: 7,
     name: "Custom Packaging",
     category: "Other",
-    image: "/src/assets/images/TieHous.jpg",
+    image: imgSeven,
   },
   {
     id: 8,
     name: "Custom Packaging",
     category: "Other",
-    image: "/src/assets/images/TieHous.jpg",
+    image: imgEight,
   },
 ];
 

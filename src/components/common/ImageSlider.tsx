@@ -2,6 +2,12 @@
 
 import { Box, Typography, useTheme } from "@mui/material";
 import { Swiper, SwiperSlide } from "swiper/react";
+import tieHouse from "../../assets/images/TieHous.jpg";
+import slide2 from "../../assets/images/slide2.png";
+import heels from "../../assets/images/heels.jpg";
+import slide3 from "../../assets/images/slide3.png";
+import tiehouse3 from "../../assets/images/TieHous3.jpg";
+
 import {
   Autoplay,
   Navigation,
@@ -17,23 +23,23 @@ import "swiper/css/effect-creative";
 
 const images = [
   {
-    image: "/src/assets/images/TieHous.jpg",
+    image: tieHouse,
     text: "Smart Storage, Elegant Design",
   },
   {
-    image: "/src/assets/images/slide2.png",
+    image: slide2,
     text: "Durable Canvas, Built to Last",
   },
   {
-    image: "/src/assets/images/heels.jpg",
+    image: heels,
     text: "Strong Handles, Heavy-Duty Performance",
   },
   {
-    image: "/src/assets/images/slide3.png",
+    image: slide3,
     text: "Protect Your Suits with Clarity Covers",
   },
   {
-    image: "/src/assets/images/TieHous3.jpg",
+    image: tiehouse3,
     text: "Clarity Quality — Trusted by Professionals",
   },
 ];

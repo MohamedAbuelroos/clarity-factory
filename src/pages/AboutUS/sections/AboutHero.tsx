@@ -1,4 +1,5 @@
 import { Box, Container, Typography } from "@mui/material";
+import aboutHero from "/src/assets/images/Clarity.jpeg"
 
 const AboutHero = () => {
   return (
@@ -43,7 +44,7 @@ const AboutHero = () => {
         <Box
           component="img"
           loading="lazy"
-          src="/src/assets/images/Clarity.jpeg"
+          src={aboutHero}
           alt="About Clarity Factory"
           sx={{
             width: "100%",

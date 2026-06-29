@@ -1,6 +1,6 @@
 import { Box, Container, Grid, Typography, Link } from "@mui/material";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
-
+import img from "../../assets/images/WorkTGimg.png";
 const WorkTogetherSection = () => {
   return (
     <Box
@@ -87,7 +87,7 @@ const WorkTogetherSection = () => {
             <Box
               component="img"
               loading="lazy"
-              src="/src/assets/images/WorkTGimg.png"
+              src={img}
               alt="Clarity factory work"
               sx={{
                 width: "90%",

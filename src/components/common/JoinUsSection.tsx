@@ -1,5 +1,6 @@
 import { Box, Container, Typography, Button } from "@mui/material";
 import image from "/src/assets/images/joinUs.jpg";
+import video from "/src/assets/videos/Video.mp4";
 
 const JoinUsSection = () => {
   return (
@@ -33,7 +34,7 @@ const JoinUsSection = () => {
           display: { xs: "none", md: "block" }, // hide on mobile
         }}
       >
-        <source src="/src/assets/videos/Video.mp4" type="video/mp4" />
+        <source src={video} type="video/mp4" />
       </Box>
 
       {/* OVERLAY */}

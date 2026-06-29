@@ -1,10 +1,9 @@
 import { Box, Container, Grid } from "@mui/material";
+import imageOne from "/src/assets/images/joinUs.jpg";
+import imageTwo from "/src/assets/images/joinUs.jpg";
+import imageThree from "/src/assets/images/joinUs.jpg";
 
-const images = [
-  "/src/assets/images/joinUs.jpg",
-  "/src/assets/images/joinUs.jpg",
-  "/src/assets/images/joinUs.jpg",
-];
+const images = [imageOne, imageTwo, imageThree];
 
 const AboutGallery = () => {
   return (
