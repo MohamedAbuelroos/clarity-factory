@@ -4,7 +4,7 @@ import { Box, Typography, useTheme } from "@mui/material";
 import { Swiper, SwiperSlide } from "swiper/react";
 import tieHouse from "../../assets/images/TieHous.jpg";
 import slide2 from "../../assets/images/slide2.png";
-import heels from "../../assets/images/heels.jpg";
+import heels from "../../assets/images/Heels.jpg";
 import slide3 from "../../assets/images/slide3.png";
 import tiehouse3 from "../../assets/images/TieHous3.jpg";
 
